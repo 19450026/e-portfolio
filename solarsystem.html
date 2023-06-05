@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Solarsystem - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			table {
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+			
+			td, th {
+			  border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 8px;
+			}
+			
+			tr:nth-child(even) {
+			  background-color: #4d0446;
+			}
+			</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="button">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="securityimplications.html" class="button">securityimplications</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Solar Winds Article and Cyber Kill Chain </h1>
+							
+						</div>
+					</section>
+
+			</div>
+			<h2> analyses the solar winds</h2>
+
+<table>
+  <tr>
+    <th>phase</th>
+    <th>description</th>
+    
+  </tr>
+  <tr>
+    <td>Reconnaissance</td>
+    <td>Gathering information about the target and identifying vulnerabilities.</td>
+</td>
+   
+  </tr>
+  <tr>
+    <td>Weaponization</td>
+    <td>Crafting and preparing the exploit or malware.</td>
+    
+  </tr>
+  <tr>
+    <td>Delivery</td>
+    <td>Delivering the exploit to the target system.</td>
+    
+  </tr>
+  <tr>
+    <td>Exploitation</td>
+    <td>Executing the exploit to gain unauthorized access.</td>
+   
+  </tr>
+  <tr>
+   <td>Installation</td>
+    <td>Establishing persistence and creating backdoors.</td>
+    
+  </tr>
+  <tr>
+    <td>Command and Control</td>
+    <td>Taking control of the compromised system.</td>
+    
+  </tr>
+  <tr>
+    <td>Actions on Objectives</td>
+    <td>Performing the intended actions, such as data exfiltration or further attacks.</td>
+   
+  </tr>
+  
+</table>
+<p>any phases i cannot mitigate?</p><br>
+<p>İ think all of them can be applied with easiliy in real life so :no ,there is nothing i cant applied as mitigation.<br></p>
+
+<h2>Mitigations for Each Phase:</h2>
+
+<table>
+  <tr>
+    <th>phase</th>
+    <th>Mitigation</th>
+    
+  </tr>
+  <tr>
+    <td>Reconnaissance</td>
+    <td>Implement network monitoring and intrusion detection systems to identify suspicious activities. Regularly update software and systems to patch vulnerabilities..</td>
+</td>
+   
+  </tr>
+  <tr>
+    <td>Weaponization</td>
+    <td>Implement email security measures, such as spam filters and antivirus solutions, to detect and block malicious attachments or links.</td>
+    
+  </tr>
+  <tr>
+    <td>Delivery</td>
+    <td>Employ network filtering and firewalls to block known malicious domains or IP addresses. User awareness training to avoid clicking on suspicious links or opening attachments.</td>
+    
+  </tr>
+  <tr>
+    <td>Exploitation</td>
+    <td>Keep systems and software up to date with the latest patches and security fixes. Implement application whitelisting or sandboxing to limit the execution of unknown or unauthorized code.</td>
+   
+  </tr>
+  <tr>
+   <td>Installation</td>
+    <td>Implement strong access controls and least privilege principles to limit unauthorized access. Regularly monitor and analyze system logs for unusual activities.</td>
+    
+  </tr>
+  <tr>
+    <td>Command and Control</td>
+    <td>Use intrusion detection and prevention systems to identify and block malicious communications. Implement network segmentation to limit lateral movement</td>
+    
+  </tr>
+  <tr>
+    <td>Actions on Objectives</td>
+    <td>Implement data loss prevention measures to monitor and control data exfiltration attempts. Regularly backup critical data and verify the integrity of backups.</td>
+   
+  </tr>
+  
+</table>
+<h2>Tools for Each Phase:</h2>
+
+<table>
+  <tr>
+    <th>phase</th>
+    <th>Tools</th>
+    
+  </tr>
+  <tr>
+    <td>Reconnaissance</td>
+    <td>Shodan, Nmap, WHOIS, Google Dorks</td>
+</td>
+   
+  </tr>
+  <tr>
+    <td>Weaponization</td>
+    <td>Metasploit, Cobalt Strike, Empire, Social Engineering Toolkit (SET)</td>
+    
+  </tr>
+  <tr>
+    <td>Delivery</td>
+    <td>Phishing frameworks (Gophish, King Phisher), Malware distribution platforms</td>
+    
+  </tr>
+  <tr>
+    <td>Exploitation</td>
+    <td>Exploit frameworks (Metasploit, ExploitDB), Web application scanners (Burp Suite, OWASP ZAP).</td>
+   
+  </tr>
+  <tr>
+   <td>Installation</td>
+    <td>Remote Access Trojans (RATs) such as Poison Ivy, Netcat, PowerShell Empire</td>
+    
+  </tr>
+  <tr>
+    <td>Command and Control</td>
+    <td>Command-and-control frameworks (C2Matrix, Covenant, Empire), DNS tunneling tools</td>
+    
+  </tr>
+  <tr>
+    <td>Actions on Objectives</td>
+    <td>Data exfiltration tools (PowerSploit, Exfiltration Over Websockets), Network scanning tools (Nmap, Nessus).</td>
+   
+  </tr>
+  
+</table>
+<p>The tools that i prefer to use:<br>
+	Reconnaissance: Shodan is a search engine that scans and indexes various devices connected to the internet. It can help identify exposed systems and their vulnerabilities.<br>
+	<br>
+	Weaponization:Social Engineering Toolkit (SET): SET is a framework that assists in generating and deploying social engineering attacks, such as phishing emails, to trick users into executing malicious actions.i think social engineering is more dangerous than other because of you dont need to use hughe amount of information to start attack<br>
+	<br>
+	Phishing frameworks (Gophish, King Phisher): Phishing frameworks simplify the creation and 
+	
+	agement of phishing campaigns. They enable the simulation of real-world phishing attacks to educate users and test the effectiveness of security measures.as İ said at previsously i think social engineering is more dangerous.<br>
+	<br>
+	Exploitation:Metasploit: Metasploit contains an extensive collection of pre-built exploits, making it a popular choice for exploiting vulnerabilities in target systems. It provides a reliable and well-documented framework for penetration testing.i prefer this because i have some experiences with Metasploit.<br>
+	<br>
+	For others i dont have any preference and i just get nowledge about them newly, so i dont want to talk about them.<br>
+
+
+
+
+
+</p>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
